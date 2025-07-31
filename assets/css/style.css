@@ -38,6 +38,7 @@ header .navbar {
     position: absolute;
     width: 100%;
     background-color: transparent;
+    z-index: 11;
 }
 
 
@@ -70,6 +71,7 @@ header .navbar .navbar-nav a {
     line-height: normal;
     font-weight: 400;
     color: #838383;
+    cursor: pointer;
 }
 
 header .content-box {
@@ -84,6 +86,10 @@ header .left-side {
     height: 100%;
     padding: 100px 0 0 0;
     position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 

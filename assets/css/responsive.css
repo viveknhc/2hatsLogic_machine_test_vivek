@@ -104,7 +104,7 @@ header .left-side .student-wrap .number-box {
         background-color: #FF9257;
         width: 100%;
         padding: 32px 0 32px 100px;
-        position: absolute;
+        /* position: absolute; */
         bottom: 0;
     }
 
@@ -459,6 +459,11 @@ header .left-side .student-wrap .number-box {
         border: 2px solid var(--secondary-color);
         border-radius: 15px;
         background: #ffffff;
+        gap: 10px;
+    }
+
+    header .navbar .navbar-nav a {
+        padding: 0;
     }
 
     header .navbar .navbar-toggler {
